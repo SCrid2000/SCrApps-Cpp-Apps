@@ -1,0 +1,36 @@
+#!/usr/bin/env mkb
+subproject iwnui
+
+file shipwrecked.cpp
+
+assets
+{
+    (data)
+    iwui_style/fonts/FreeMono.ttf
+    iwui_style/fonts/FreeSans.ttf
+    iwui_style/fonts/FreeSerif.ttf
+	images/wrecked.png
+	images/back.png
+	images/back_pushed.png
+	images/island.png
+	images/island2.png
+
+    (data-ram/data-gles1, data)
+    iwui_style/iwui_style.group.bin
+}
+#### AUTO GENERATED deployment settings from DeployTool.exe. Do not edit below this line ####
+deployments
+{
+	["Default"]
+	caption='Surviving on a Desert Island'
+	copyright='2012-2013'
+	icon='playbookicon.png'
+	name='Shipwrecked'
+	playbook-author='SCrApps'
+	provider='SCrApps'
+	splashscreen-auto-onblack=0
+	splashscreen-use-all=0
+	version-major=0
+	version-minor=8
+	version-revision=5
+}

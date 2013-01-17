@@ -1,0 +1,23 @@
+[S3E]
+MemSize=16777216			# 16 Mb
+MemSizeDebugDevice=16777216	# 5  Mb
+MemSizeDebug=20971520		# 20 Mb
+MemMgrMaxAllocWarning=0
+DispFixRot=1
+
+
+[GX]
+DataCacheSize=1000000
+PolyBufferSize=200000
+VertCacheSize=20000
+DisplayFramerate=0
+NumTPages=128
+UseRgbLighting=1
+
+[GXFONT]
+CacheTextureMaxSize=1024
+ 
+[TRACE]
+NUI_VERBOSE=0
+GX_FONT_VERBOSE=0
+RESMANAGER=0
